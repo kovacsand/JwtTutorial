@@ -5,9 +5,9 @@
     <projectFile profileName="WebApi">WebApi/WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApi/Services/AuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Services/IAuthService.cs" afterDir="false" />
+    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="userservice implemented">
+      <change afterPath="$PROJECT_DIR$/WebApi/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <updated>1666685296126</updated>
       <workItem from="1666685297350" duration="3923000" />
       <workItem from="1666690832317" duration="889000" />
-      <workItem from="1667045037180" duration="864000" />
+      <workItem from="1667045037180" duration="2694000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore, initial commit with model">
       <created>1666685818706</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666691713960</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="userservice implemented">
+      <created>1667046126390</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667046126390</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +151,7 @@
     <MESSAGE value="UserLoginDto created with init of properties" />
     <MESSAGE value="auth implemented with 4 policies" />
     <MESSAGE value="webapi implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="webapi implemented" />
+    <MESSAGE value="userservice implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="userservice implemented" />
   </component>
 </project>
