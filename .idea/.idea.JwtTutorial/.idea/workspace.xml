@@ -5,8 +5,9 @@
     <projectFile profileName="WebApi">WebApi/WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="userservice implemented">
-      <change afterPath="$PROJECT_DIR$/WebApi/Controllers/AuthController.cs" afterDir="false" />
+    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="controller implemented&#10;login tested with swagger">
+      <change afterPath="$PROJECT_DIR$/WebApi/Controllers/TestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/WebApiTests.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
+  <component name="RunManager" selected="HTTP Request.WebApiTests | #1">
+    <configuration name="WebApiTests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WebApi/WebApiTests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WebApiTests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WebApi/WebApiTests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -62,6 +69,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.WebApiTests | #2" />
+        <item itemvalue="HTTP Request.WebApiTests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +86,7 @@
       <updated>1666685296126</updated>
       <workItem from="1666685297350" duration="3923000" />
       <workItem from="1666690832317" duration="889000" />
-      <workItem from="1667045037180" duration="2694000" />
+      <workItem from="1667045037180" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore, initial commit with model">
       <created>1666685818706</created>
@@ -124,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667046126390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="controller implemented&#10;login tested with swagger">
+      <created>1667047983660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667047983660</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +172,7 @@
     <MESSAGE value="auth implemented with 4 policies" />
     <MESSAGE value="webapi implemented" />
     <MESSAGE value="userservice implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="userservice implemented" />
+    <MESSAGE value="controller implemented&#10;login tested with swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller implemented&#10;login tested with swagger" />
   </component>
 </project>
