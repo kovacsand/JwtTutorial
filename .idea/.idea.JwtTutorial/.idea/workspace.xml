@@ -7,8 +7,9 @@
     <projectFile profileName="WebApi">WebApi/WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="implemented inherited methods in jwtauthservice">
-      <change afterPath="$PROJECT_DIR$/BlazorWasm/Pages/MustBeLoggedInToView.razor" afterDir="false" />
+    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="authorize and block access with policy to page">
+      <change afterPath="$PROJECT_DIR$/BlazorWasm/Pages/ShowCredentialsFromAuthState.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWasm/Pages/ShowCredentialsFromContext.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorWasm/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Shared/NavMenu.razor" afterDir="false" />
     </list>
@@ -38,15 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
     <configuration name="WebApiTests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WebApi/WebApiTests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -145,7 +147,7 @@
       <workItem from="1666690832317" duration="889000" />
       <workItem from="1667045037180" duration="8779000" />
       <workItem from="1667131520641" duration="7668000" />
-      <workItem from="1667167813817" duration="4189000" />
+      <workItem from="1667167813817" duration="6305000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore, initial commit with model">
       <created>1666685818706</created>
@@ -273,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667171502540</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="authorize and block access with policy to page">
+      <created>1667172269564</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172269564</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +321,7 @@
     <MESSAGE value="login and logout buttons gui" />
     <MESSAGE value="typo fix in mainlayout and method and inherited method implemented" />
     <MESSAGE value="implemented inherited methods in jwtauthservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented inherited methods in jwtauthservice" />
+    <MESSAGE value="authorize and block access with policy to page" />
+    <option name="LAST_COMMIT_MESSAGE" value="authorize and block access with policy to page" />
   </component>
 </project>
