@@ -7,9 +7,11 @@
     <projectFile profileName="WebApi">WebApi/WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="login page implemented but not working due to unimplemented methods from the interface">
-      <change afterPath="$PROJECT_DIR$/BlazorWasm/Pages/LoginButtons.razor" afterDir="false" />
+    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="login and logout buttons gui">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWasm/Services/Http/JwtAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Services/Http/JwtAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWasm/Services/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Services/IAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWasm/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Shared/MainLayout.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +144,7 @@
       <workItem from="1666690832317" duration="889000" />
       <workItem from="1667045037180" duration="8779000" />
       <workItem from="1667131520641" duration="7668000" />
-      <workItem from="1667167813817" duration="1887000" />
+      <workItem from="1667167813817" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore, initial commit with model">
       <created>1666685818706</created>
@@ -242,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667168434341</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="login and logout buttons code implemented">
+      <created>1667169868446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667169868446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="login and logout buttons gui">
+      <created>1667169990996</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667169990996</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +293,8 @@
     <MESSAGE value="authservice login implemented" />
     <MESSAGE value="auth state provider implemented" />
     <MESSAGE value="login page implemented but not working due to unimplemented methods from the interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="login page implemented but not working due to unimplemented methods from the interface" />
+    <MESSAGE value="login and logout buttons code implemented" />
+    <MESSAGE value="login and logout buttons gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="login and logout buttons gui" />
   </component>
 </project>

@@ -89,6 +89,8 @@ public class JwtAuthService : IAuthService
 
     public Task<ClaimsPrincipal> GetAuthAsync()
     {
-        throw new NotImplementedException();
+        //I've done this looking ahead
+        ClaimsPrincipal principal = CreateClaimsPrincipal();
+        return Task.FromResult(principal);
     }
 }
