@@ -7,8 +7,10 @@
     <projectFile profileName="WebApi">WebApi/WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="typo fix in mainlayout and method and inherited method implemented">
-      <change beforePath="$PROJECT_DIR$/BlazorWasm/Services/Http/JwtAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Services/Http/JwtAuthService.cs" afterDir="false" />
+    <list default="true" id="ef2cc472-fece-44f7-bcfc-0b6fd5522c8b" name="Changes" comment="implemented inherited methods in jwtauthservice">
+      <change afterPath="$PROJECT_DIR$/BlazorWasm/Pages/MustBeLoggedInToView.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JwtTutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWasm/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWasm/Shared/NavMenu.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8e6299faabd295fca04975cbef47198c3abaf483d9af919ff69a4ab7bdeb31f/AuthorizeRouteView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/kandr/RiderProjects/JwtTutorial/BlazorWasm/Services/Http/JwtAuthService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/kandr/RiderProjects/JwtTutorial/BlazorWasm/Services/IAuthService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BlazorWasm">
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
     <configuration name="WebApiTests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/WebApi/WebApiTests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -142,7 +145,7 @@
       <workItem from="1666690832317" duration="889000" />
       <workItem from="1667045037180" duration="8779000" />
       <workItem from="1667131520641" duration="7668000" />
-      <workItem from="1667167813817" duration="3519000" />
+      <workItem from="1667167813817" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore, initial commit with model">
       <created>1666685818706</created>
@@ -263,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667171073539</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="implemented inherited methods in jwtauthservice">
+      <created>1667171502540</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667171502540</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +311,7 @@
     <MESSAGE value="login and logout buttons code implemented" />
     <MESSAGE value="login and logout buttons gui" />
     <MESSAGE value="typo fix in mainlayout and method and inherited method implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo fix in mainlayout and method and inherited method implemented" />
+    <MESSAGE value="implemented inherited methods in jwtauthservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented inherited methods in jwtauthservice" />
   </component>
 </project>
