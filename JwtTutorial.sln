@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{CFAA757A-8164-4979-A6B1-496257B2A103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm", "BlazorWasm\BlazorWasm.csproj", "{3517BD3B-E276-442C-B137-46FAE22BFBA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CFAA757A-8164-4979-A6B1-496257B2A103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFAA757A-8164-4979-A6B1-496257B2A103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFAA757A-8164-4979-A6B1-496257B2A103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3517BD3B-E276-442C-B137-46FAE22BFBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3517BD3B-E276-442C-B137-46FAE22BFBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3517BD3B-E276-442C-B137-46FAE22BFBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3517BD3B-E276-442C-B137-46FAE22BFBA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
